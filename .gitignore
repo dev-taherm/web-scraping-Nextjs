@@ -34,3 +34,20 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore environment-specific files
+.env.local
+.env.development
+.env.production
+
+# Ignore log files
+*.log
+
+
+# Ignore other generated or temporary files
+*.tmp
+*.swp
